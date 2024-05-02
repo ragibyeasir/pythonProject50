@@ -5,3 +5,5 @@ def home(request):
 
 def another(request):
 	return render(request, 'another-page.html')
+def messaging(request):
+	return render(request, 'messaging.html')
