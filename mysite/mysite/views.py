@@ -5,5 +5,7 @@ def home(request):
 
 def another(request):
 	return render(request, 'another-page.html')
-def messaging(request):
-	return render(request, 'messaging.html')
+def message(request):
+	return render(request, 'message.html')
+def community(request):
+	return render(request, 'community.html')
