@@ -9,9 +9,7 @@ class Post(models.Model):
 	category = models.CharField(max_length=200)
 
 
-class CustomUser(models.Model):
-	user = models.ForeignKey(User, on_delete=models.CASCADE)
-	address = models.CharField(max_length=255)
+
 
 
 def __str__(self):
